@@ -8,7 +8,7 @@ project:
 #  source_files:        
 #    - counter.v
 #    - decoder.v
-#  top_module:  "seven_segment_seconds"      # put the name of your top module here, make it unique by prepending your github username
+#  top_module:  "adriannovosel_test_upload"      # put the name of your top module here, make it unique by prepending your github username
 
 # Keep a track of the submission yaml
 yaml_version: 3.0
