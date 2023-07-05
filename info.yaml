@@ -1,14 +1,14 @@
 --- 
 # TinyTapeout project information
 project:
-  wokwi_id:    357178660283991041        # If using wokwi, set this to your project's ID
+  wokwi_id:    0        # If using wokwi, set this to your project's ID
 
 # If using an HDL, set wokwi_id as 0 and uncomment and list your source files here. 
-# Source files must be in ./src and you must list each source file separately
-#  source_files:        
-#    - counter.v
-#    - decoder.v
-#  top_module:  "adriannovosel_test_upload"      # put the name of your top module here, make it unique by prepending your github username
+ Source files must be in ./src and you must list each source file separately
+  source_files:        
+    - D.v
+    
+  top_module:  "D"      # put the name of your top module here, make it unique by prepending your github username
 
 # Keep a track of the submission yaml
 yaml_version: 3.0
@@ -33,8 +33,8 @@ documentation:
       
 # A description of what the inputs do
   inputs:               
-    - clock
-    - reset
+    - b
+    - a
     - none
     - none
     - none
@@ -43,14 +43,14 @@ documentation:
     - none
 # A description of what the outputs do
   outputs:
-    - segment a
-    - segment b
-    - segment c
-    - segment d
-    - segment e
-    - segment f
-    - segment g
-    - dot
+    - y
+    - none
+    - none
+    - none
+    - none
+    - none
+    - none
+    - none
 
 # The following fields are optional
   tag:          ""      # comma separated list of tags: test encryption, experiment, clock, animation, utility, industrial, pwm, fpga, alu, microprocessor, risc, riscv, sensor, signal generator, fft, filter, music, bcd, sound, serial, timer, random number generator, calculator, decoder, counter, puzzle, multiplier, game, oscillator,
